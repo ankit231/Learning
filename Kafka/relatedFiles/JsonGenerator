@@ -1,0 +1,15 @@
+[
+  '{{repeat(5)}}',
+  {
+    index: '{{index()}}',
+    isActive: '{{bool()}}',
+    balance: '{{floating(1000, 4000, 2, "0,0.00")}}',
+    age: '{{integer(20, 40)}}',
+    eyeColor: '{{random("blue", "brown", "green")}}',
+    name: {
+        firstName: '{{firstName()}}',
+        lastName: '{{surname()}}'
+      },
+    gender: '{{gender()}}'
+     }
+]
