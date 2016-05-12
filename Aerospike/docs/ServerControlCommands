@@ -1,0 +1,9 @@
+http://www.aerospike.com/docs/operations/install/linux/ubuntu/
+
+Install Aerospike:
+cd aerospike-server-community-<version>-ubuntu12.04
+# for ubuntu 14.04, replace "ubuntu12.04" with ubuntu14.04
+sudo ./asinstall
+
+Controls:
+sudo /etc/init.d/aerospike start|stop|status
