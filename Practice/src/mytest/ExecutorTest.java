@@ -23,7 +23,7 @@ import com.google.common.util.concurrent.ThreadFactoryBuilder;
 public class ExecutorTest {
 
     public static void main(String ar[]) {
-        ExecutorService executorService = ExecutorTest.createExecutor("Ankit", 2);
+        ExecutorService executorService = ExecutorTest.createExecutor("Ankit", 5);
         for (int i = 0; i <= 2; i++) {
             ThreadClass tc = new ThreadClass();
             tc.printNow(executorService);
